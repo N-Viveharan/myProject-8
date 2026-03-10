@@ -7,11 +7,11 @@ function Header() {
       <div >
         <h1 className='text-4xl xl:text-6xl font-bold text-neutral-700 leading-tight'>
           Remove the <br /><span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>from</span> <br />images for free</h1>
-        <p>lorem Ipsum is simply dum scem lesum has been the
+        <p className='my-6 text-[15px] text-gray-500'>lorem Ipsum is simply dum scem lesum has been the
           out of the printing and typesetting industry: stry's standard dummy text</p>
           <div>
             <input type="file" name="" id="" hidden />
-            <label htmlFor="upload1">
+            <label htmlFor="upload1" className=' inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-tr from-violet-500 m-auto to-fuchsia-500 hover:scale-105 transition-all duration-700'>
               <img src={assets.upload_btn_icon} alt="" />
               <p>Update your image</p>
 
