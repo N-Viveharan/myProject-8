@@ -6,7 +6,7 @@ function Header() {
     <div className='flex items-center justify-between max-sm:flex-col-reverse gap-y-10 px-4 mt-10 lg:px-44 sm:mt-20'>
       <div >
         <h1 className='text-4xl xl:text-6xl font-bold text-neutral-700 leading-tight'>
-          Remove the <br /><span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>from</span> <br />images for free</h1>
+          Remove the <br className='max:md:hidden' /><span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>from</span> <br className='max:md:hidden' />images for free</h1>
         <p className='my-6 text-[15px] text-gray-500'>lorem Ipsum is simply dum scem lesum has been the
           out of the printing and typesetting industry: stry's standard dummy text</p>
           <div>
@@ -17,6 +17,10 @@ function Header() {
 
             </label>
           </div>
+      </div>
+      <div className='w-full max-w-md'>
+        <img src={assets.header_img} alt="" />
+
       </div>
     </div>
   )
