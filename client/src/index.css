@@ -19,3 +19,6 @@
   background-repeat:no-repeat;
   background-size:cover;
 }
+.bg-layer{
+  background-image: url(/Users/viveharan/Desktop/My Project/myProject-8/client/src/assets/bg_layer.png);
+}
