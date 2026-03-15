@@ -10,8 +10,8 @@ function Header() {
         <p className='my-6 text-[15px] text-gray-500'>lorem Ipsum is simply dum scem lesum has been the
           out of the printing and typesetting industry: stry's standard dummy text</p>
           <div>
-            <input type="file" name="" id="" hidden />
-            <label htmlFor="upload1" className=' inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-tr from-violet-500 m-auto to-fuchsia-500 hover:scale-105 transition-all duration-700'>
+            <input type="file" name="" id="upload1" hidden />
+            <label htmlFor="upload1" className=' inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-tr from-violet-500 m-auto to-fuchsia-500 hover:scale-105 transition-all duration-700' htmlFor="upload1" >
               <img width={20} src={assets.upload_btn_icon} alt="" />
               <p className='text-white text-sm'>Update your image</p>
 
