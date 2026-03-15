@@ -16,6 +16,8 @@ function BuyCredit() {
         <p className='text-sm'>{item.desc}</p>
 
         <p className='mt-6'>
+
+          
           <span>${item.price}</span> / {item.credits} credits
         </p>
 
