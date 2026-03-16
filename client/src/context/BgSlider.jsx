@@ -6,6 +6,8 @@ function BgSlider() {
 
   const handleSliderChange = (e) => {
     setSliderPosition(e.target.value);
+
+    
   };
   return (
 
