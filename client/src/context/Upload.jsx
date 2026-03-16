@@ -4,6 +4,8 @@ import { assets } from '../assets/assets'
 function Upload() {
   return (
     <div className='pb-16' >
+
+      
         <h1 className="text-center text-2xl md:text-3xl lg:text-4xl mt-4 font-semibold from-gray-900 to-gray-400 bg-clip-text bg-gradient-to-r ">See the magic.try now</h1>
 
         <div className='text-center m-13' >
