@@ -7,6 +7,7 @@ function Result() {
       <div className="bg-white rounded-lg px-8 py-6 drop-shadow-sm">
         <div className="flex flex-col sm:grid grid-cols-2 gap-8" >
 
+
         <div >
           <p className="font-semibold text-gray-600 mb-2">Original</p>
           <img lassName="rounded-md border" src={assets.image_w_bg} alt="" />
