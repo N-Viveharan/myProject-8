@@ -12,6 +12,7 @@ function BuyCredit() {
       <div key={index} className='bg-white drop-shadow-sm border rounded-lg py-12 px-8 text-gray-700 hover:scale-105 transition-all duration-500'>
         <img width={40} src={assets.logo_icon} alt="" />
 
+
         <p className='mt-3 font-semibold'>{item.id}</p>
         <p className='text-sm'>{item.desc}</p>
 
