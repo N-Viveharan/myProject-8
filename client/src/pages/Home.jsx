@@ -12,6 +12,7 @@ function Home() {
       
       <Steps/>
       <BgSlider/>
+      
       <Testimonials/>
       <Upload/>
     </div>
