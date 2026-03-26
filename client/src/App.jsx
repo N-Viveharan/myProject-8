@@ -9,10 +9,12 @@ import Navbar from "./context/Navbar";
 
 import Footer from "./context/Footer";
 
+
 const App = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Navbar/>
+      
       <Routes>
         
         <Route path="/" element={<Home />} />
