@@ -8,6 +8,8 @@ function BgSlider() {
     setSliderPosition(e.target.value);
 
     
+
+    
   };
   return (
 
